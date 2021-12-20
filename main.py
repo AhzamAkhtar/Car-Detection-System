@@ -11,6 +11,6 @@ while True:
         cv.putText(frames,"Cars",(x,y),cv.FONT_HERSHEY_SIMPLEX,2,(255,255,255),4)
     frames=cv.resize(frames,(400,400))
     cv.imshow("Cars",frames)
-    if cv.waitKey(10)==ord("q"):
+    if cv.waitKey(60)==ord("q"):
         break
 cv.destroyAllWindows()
